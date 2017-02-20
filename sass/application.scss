@@ -1,18 +1,19 @@
-
 // Import core Sass libraries
 @import "lib/bourbon/bourbon";
 
-// Base
+// Own custom bootstrap
+@import "bootstrap-custom";
+
+
+// Base styles
 @import "typography";
 @import "buttons";
 
-// UI Patterns and Modules
+// Modular parts
 @import "modules/modules";
 
-// Vendor specific styles / modules
+// Vendor
 @import "vendors/vendors";
 
 // Layouts
 @import "layouts/layouts";
-
-

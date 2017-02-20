@@ -1,0 +1,8 @@
+
+
+   install dependencies:
+     $ cd landingpage && npm install
+
+   run the app:
+     $ DEBUG=landingpage:* npm start
+     $ grunt watch

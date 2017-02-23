@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { PropTypes } from 'react'
 
-ReactDOM.render(
-  <div>Hello World</div>,
-  document.getElementById('app-container')
-);
+const App = () => (
+	<div>App container</div>
+)
+
+export default App

@@ -3,7 +3,7 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: [
-    './react-app/app.js'
+    './react-app/index.js'
   ],
   devtool: 'eval-source-map',
   output: {

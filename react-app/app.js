@@ -1,7 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { PropTypes } from 'react'
+import Thumbnail from './thumbnail'
 
-ReactDOM.render(
-  <div>Hello World</div>,
-  document.getElementById('app-container')
-);
+const App = () => (
+	<div className="container-fluid">
+		<Thumbnail></Thumbnail>
+		<Thumbnail></Thumbnail>
+		<Thumbnail></Thumbnail>
+		<Thumbnail></Thumbnail>
+		<Thumbnail></Thumbnail>
+		<Thumbnail></Thumbnail>
+		<Thumbnail></Thumbnail>
+	</div>
+)
+
+export default App
